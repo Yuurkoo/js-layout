@@ -1,0 +1,32 @@
+main {
+padding: 60px;
+display: grid;
+grid-template-rows: repeat(5, 300px);
+gap: 100px;
+
+position: relative;
+} 
+
+section{
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button{
+    border-radius: 24px;
+    padding: 12px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+
+    transition: opacity 0.7s;
+
+    position: fixed;
+    bottom: 45px;
+    left: 45px;
+
+    display: none;
+}
